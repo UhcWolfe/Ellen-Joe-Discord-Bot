@@ -1,0 +1,14 @@
+{
+  "name": "genshininpact-bot",
+  "version": "1.0.0",
+  "description": "NSFW Discord bot with Fluxpoint API",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "node-fetch": "^2.6.1",
+    "@discordjs/rest": "^1.6.0"
+  }
+}
