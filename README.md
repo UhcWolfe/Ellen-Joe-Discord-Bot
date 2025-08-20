@@ -1,33 +1,23 @@
-# 🔞 NSFW Discord Bot — powered by Fluxpoint API
+# 🔮 Veyra - Ellen Joe
 
-Ten bot to prosty, ale funkcjonalny NSFW bot na Discorda napisany w Node.js z wykorzystaniem biblioteki [discord.js v14](https://discord.js.org/) i NSFW API od [Fluxpoint](https://docs.fluxpoint.dev).
-
-> ⚠️ **Ten bot zawiera treści dla dorosłych (18+) i powinien być używany tylko na serwerach z oznaczeniem NSFW.**
+Bot rozrywkowy stworzony z wykorzystaniem **discord.js**, który umożliwia wysyłanie losowych obrazków i gifów w formie estetycznych embedów.  
+Obsługuje wiele kategorii NSFW z API Fluxpoint oraz własne kolekcje obrazków z gier takich jak **League of Legends** i **Zenless Zone Zero**.  
 
 ---
 
 ## ✨ Funkcje
-
-- `/genshininpact <kategoria>` — wysyła losowy obrazek NSFW z wybranej kategorii anime.
-- `/hentai` — wysyła losowy NSFW hentai gif.
-
-Wszystkie obrazki i gify pochodzą z **Fluxpoint NSFW API** i posiadają stopkę „Powered by FluxpointAPI”.
-
----
-
-## 🛠️ Wymagania
-
-- Node.js 16.9 lub wyższy
-- Token Discord Bota
-- ID aplikacji i serwera (do rejestracji komend)
+- `/genshininpact <kategoria>` – losowe NSFW anime (obrazy) z API Fluxpoint  
+- `/hentai` – losowy NSFW hentai gif  
+- `/leagueoflegends` – losowy obrazek z League of Legends (lokalna kolekcja z Imgur)  
+- `/zenlesszonezero` – losowy obrazek z Zenless Zone Zero (lokalna kolekcja z Imgur)  
+- Podpowiedzi **autocomplete** w wyborze kategorii dla `/genshininpact`  
+- Automatyczne osadzanie obrazków w **embedach** z tytułem, stopką i kolorem  
+- Obsługa błędów (komunikaty, gdy API lub obrazek nie jest dostępny)
 
 ---
 
-## 🚀 Instalacja
-
-1. **Sklonuj repozytorium:**
+## 🛠 Instalacja
+1. Sklonuj repozytorium:
    ```bash
-   git clone https://github.com/UhcWolfe/Ellen-Joe-Discord-Bot.git
-   cd Ellen-Joe-Discord-Bot
-
-
+   git clone https://github.com/twoj-user/veyra-discord-bot.git
+   cd veyra-discord-bot
